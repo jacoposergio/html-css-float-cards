@@ -53,34 +53,47 @@ body {
         background-color: blue;
     }
 
-    .tessera{
+   
+    .container-tessera{
         float: left;
-        padding: 0 0px;
+        padding: 10px;
         width: calc( 100% / 3 );
+        /* background-color: rgb(13, 29, 13); */
+        padding: 10px 10px;
+        
+    }
+    
+    .tessera{
+        background-color: rgb(99, 150, 6);
+        /* padding: 2px; */
+        box-shadow: 2px 2px rgba(0,0,0,0.2);
     }
 
-    img{
+    .tessera img{
         height: 70px;
         float: left;
     }
+
+    .tessera .info{
+       float: right;
+       width: calc(100% - 80px);
+       background-color: beige;
+       margin: 10px 5px;
+       
+    }
         
-    .info{
+    /* .tessera .info{
         color: white;
         font-size: 80%;
         display: inline-block;
         padding: 10px 10px;
-    }
+    } */
 
           .mail{
               color: rgb(10, 16, 14)
           }
        
 
-    .container-tessera{
-        background-color: ;
-        padding: 0px;
-        
-    }
     
 
        /* TESSERE TEAM NEL PARTICOLARE */
