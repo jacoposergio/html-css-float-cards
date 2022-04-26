@@ -8,7 +8,25 @@
 
 /* COMMON */
 body {
-    font-family: 'Fredoka', sans-serif;
+    width: 70%;
+    margin: auto;
+    font-family: 'Rubik', sans-serif;
     background-color: rgb(197, 180, 180);
     color: white;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    margin: 30px 0px;
+    font-weight: 300;
+}
+
+main{
+    margin: 40px 0px ;
+}
+p{
+    font-weight: 300;
 }
